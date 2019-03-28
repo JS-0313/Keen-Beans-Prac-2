@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+}
+
+button {
+  display: inline-block;
+  margin: 6px 0;
+  width:180px;
+  height:120px;
+}
+
+form fieldset {
+  border: 1px ridge black;
+}
+
+form input {
+  padding: 2px 0;
+  margin: 10px 0;
+  width: 200px;
+}
+
+input:focus {
+  border:3px solid #3ED152;
+}
+
+label {
+  width: 120px;
+}
+
+label, input {
+  display: inline-block;
+  font-family : inherit;
+  font-size   : 200%;
+  text-align: left;
+}
+
+legend {
+  font-family : inherit;
+  font-size   : 200%;
+}
