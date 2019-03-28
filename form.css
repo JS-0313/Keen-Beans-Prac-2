@@ -19,6 +19,14 @@ form input {
   width: 200px;
 }
 
+input[type=submit] {
+  padding: 5px 50px;
+  background: white;
+  border: 2px solid grey;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
 input:focus {
   border:3px solid #3ED152;
 }
