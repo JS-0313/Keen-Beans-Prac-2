@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+I have listed all the webpages that I viewed whilst making my html and css documents.
+Sources used:HTML
+* https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form
+* https://www.w3schools.com/tags/tag_legend.asp
+* http://www.corelangs.com/css/basics/linking.html
+* https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms
+* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit
+Sources used: CSS
+* https://stackoverflow.com/questions/8083430/how-to-change-the-font-and-font-size-of-an-html-input-tag
+* https://www.w3schools.com/css/css_form.asp
+* https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms
+* https://stackoverflow.com/questions/17042201/how-to-style-input-and-submit-button-with-css
+* https://stackoverflow.com/questions/35066871/how-to-put-all-labels-in-bold-with-css
+* css was also discussed with fellow student and group member, Jordi Siebert
+Other Sources:
+* https://www.mathsisfun.com/hexadecimal-decimal-colors.html -->
+<!--When I ran my code through an online HTML editor, the results kept telling me I was missing quotations when I was not, this is an issue that spanned across multiple sites -->
+<head>
+  <title>Ann's Form Assignment</title>
+  <link rel="stylesheet" href="ann-style.css">
+</head>
+<body>
+<form>
+  <div>
+    <fieldset>
+      <legend>Required Information: </legend>
+      <p> Please fill in the following information.</p>
+      <fieldset>
+        <legend> Basic Information: </legend>
+        <div class="BasicInfoName">
+          <label for "BasicInfoName"> Enter your Name here: </label>
+          <input type="text" name="BasicInfoName" class="Name" placeholder="Example: Cora Harper" required>
+        </div>
+        <div class="BasicInfoBDay">
+          <label for "BasicInfoBday"> Enter your Date of Birth here: </label>
+          <input type="date" name="BasicInfoBday" class="Birthday" required>
+        </div>
+        <div class="BasicInfoAddress">
+          <label for "BasicInfoAddress"> Enter your Address here: </label>
+          <input type="text" name="BasicInfoAddress" class="Address" placeholder="Example: 21 Sesame Street" required>
+        </div>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Contact Details: </legend>
+        <div class="ContactInfoEmail">
+          <label for "BasicInfoEmail"> Enter your current Email here: </label>
+          <input type="text" name="BasicInfoEmail" class="Email" placeholder="Example: fake.email@students.cdu.edu.au" required>
+        </div>
+        <div class="ContactInfoPhone">
+          <label for "BasicInfoPhone"> Enter your current Phone Number here: </label>
+          <input type="text" name="BasicInfoPhone" class="Phone" placeholder="Example: 12345678" required>
+        </div>
+      </fieldset>
+    </form>
+    <br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</body>
