@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title> Css Form </title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <form>
+
+      <fieldset>
+        <legend>General Information</legend>
+
+          <div class="firstname">
+            <label for="firstname">First Name: </label>
+            <input placeholder="John" type="text" />
+          </div>
+
+          <div class="lastname">
+            <label for="lastname">Last Name: </label>
+            <input placeholder="Smith" type="text" />
+          </div>
+
+          <div class="birthdate">
+            <label for="birthdate">Date Of Birth: </label>
+            <input required type="date" max="2019-03-28" placeholder="DD/MM/YYYY" />
+          </div>
+
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Contact Details</legend>
+
+          <div class="email">
+            <label for="email">Email: </label>
+            <input required placeholder="john.smith@example.com" type="email" />
+          </div>
+
+          <div class="address">
+            <label for="address">Address: </label>
+            <input placeholder="13 Fake Street, Fakeburb" type="text" />
+          </div>
+
+          <div class="number">
+            <label for="number">Phone Number: </label>
+            <input minlength = "10" maxlength="10" placeholder="1234567890" type="text" />
+          </div>
+
+      </fieldset>
+
+      <br>
+
+        <div class="submit">
+          <input type="submit" value="Sign Up!">
+        </div>
+
+      </form>
+
+  </body>
+
+</html>
