@@ -1,0 +1,36 @@
+label {
+  display: inline-block;
+  width: 120px;
+  vertical-align: top;
+  padding: 5px;
+}
+
+h1 {
+  font-family: Bookman Old Style;
+}
+
+input {
+  width: 150px;
+  font-family: Times;
+  padding: 1px;
+}
+
+input:focus, textarea:focus {
+  background   : rgba(0,0,0,0);
+  border-radius: 5px;
+  outline      : none;
+}
+
+legend {
+  font-family: Bookman Old Style;
+  padding: 0.2em 0.5em ;
+  border: 1px solid red;
+  color:black;
+  font-size:90%;
+  background-color: white;
+}
+
+fieldset {
+  font-family: Times;
+  border: 1px ridge red;
+}

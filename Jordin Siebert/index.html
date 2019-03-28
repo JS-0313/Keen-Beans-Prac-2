@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title> Registration </title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <h1>Register</h1>
+    <form>
+
+      <fieldset>
+        <legend>General Information</legend>
+
+          <div class="firstname">
+            <label for="firstname">First Name: </label>
+            <input placeholder="John" type="text" id="firstname" />
+          </div>
+
+          <div class="lastname">
+            <label for="lastname">Last Name: </label>
+            <input placeholder="Smith" type="text" id="lastname" />
+          </div>
+
+          <div class="birthdate">
+            <label for="birthdate">Date Of Birth: </label>
+            <input required max="2019-03-28" type="date" id="birthdate"/>
+          </div>
+
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Contact Details</legend>
+
+          <div class="email">
+            <label for="email">Email: </label>
+            <input required placeholder="john.smith@example.com" type="email" id="email" />
+          </div>
+
+          <div class="address">
+            <label for="address">Address: </label>
+            <input placeholder="13 Fake Street, Fakeburb" type="text" id="address" />
+          </div>
+
+          <div class="number">
+            <label for="number">Phone Number: </label>
+            <input minlength = "10" maxlength="10" placeholder="1234567890" type="text" id="number" />
+          </div>
+
+      </fieldset>
+
+      <br>
+
+        <div class="submit">
+          <input type="submit" value="Sign Up!" id="submit">
+        </div>
+
+      </form>
+
+  </body>
+
+</html>
