@@ -13,22 +13,22 @@
   border:3px dotted #3ED152;
 }
 
-.BasicInfoBDay label{
+.BasicInfoBday label{
   font: ariel;
   font-size: 20px;
 }
-.BasicInfoBDay input[type="date"]{
+.BasicInfoBday input[type="date"]{
   width: 100%;
   padding: 10px 0;
   margin: 10px 0;
   boxsizing: border-box;
   font-size: 20px;
 }
-.BasicInfoBDay input[type="date"]:focus {
+.BasicInfoBday input[type="date"]:focus {
   border: 3px dotted #3ED152;
 }
 
-.BasicInfoADdress label{
+.BasicInfoAddress label{
   font: ariel;
   font-size: 20px;
 }
