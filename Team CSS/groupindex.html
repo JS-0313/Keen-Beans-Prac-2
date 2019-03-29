@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="form.css">
+    <title> Sign Up </title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <h1>Register Here</h1>
+    <form>
+
+      <fieldset>
+        <legend>Personal Information</legend>
+
+          <div class="firstname">
+            <label for="firstname">First Name: </label>
+            <input placeholder="John" type="text" id="firstname" />
+          </div>
+
+          <div class="lastname">
+            <label for="lastname">Last Name: </label>
+            <input placeholder="Smith" type="text" id="lastname" />
+          </div>
+
+          <div class="birthdate">
+            <label for="birthdate"><span class="requiredtext">*</span>Date Of Birth: </label>
+            <input required max="2019-03-28" type="date" id="birthdate"/>
+          </div>
+
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Contact Information</legend>
+
+          <div class="address">
+            <label for="address"><span class="requiredtext">*</span>Address: </label>
+            <input required placeholder="13 Fake Street, Fakeburb" type="text" id="address" />
+          </div>
+
+          <div class="email">
+            <label for="email"><span class="requiredtext">*</span>Email: </label>
+            <input required placeholder="john.smith@example.com" type="email" id="email" />
+          </div>
+
+          <div class="number">
+            <label for="number">Phone Number: </label>
+            <input minlength = "10" maxlength="10" placeholder="1234567890" type="text" id="number" />
+          </div>
+
+      </fieldset>
+
+        <div class="information">
+          <p>Fields marked with an asterisk (<span class="requiredtext">*</span>) are required fields and must be completed in order to submit.</p>
+        </div>
+
+        <div class="submit">
+          <input type="submit" value="Sign Up!" id="submit">
+        </div>
+
+      </form>
+
+  </body>
+
+</html>

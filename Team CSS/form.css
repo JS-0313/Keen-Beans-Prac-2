@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+}
+
+fieldset {
+  padding-left: 2%;
+  border: 1px ridge black;
+}
+
+input {
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  width: 15%;
+  font-size: 12px;
+}
+
+input:focus {
+  border: 2px solid #3ED152;
+}
+
+legend {
+  color: #3290A5;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+label {
+  padding-left: 1%;
+  width: 10%;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.information {
+    font-size: 11px;
+}
+
+.requiredtext {
+  color: red;
+}
